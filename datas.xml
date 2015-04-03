@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
+<Inventaire>
+    <Resume />
+    <Licenses>
+        <Stock id="1">
+            <Logiciels>
+                <AOSLP Type="ALP" id="2" Nom="MS Visio 2013 Std">
+                    <Licence />
+                    <Vi />
+                    <BC Num="" Date="27/06/2013" De="" A="" Pour="" />
+                </AOSLP>
+            </Logiciels>
+        </Stock>
+        <Commands id="17">
+            <Logiciels>
+                <AOSLP Type="ALP" id="18" Nom="Mapple ">
+                    <Licence />
+                    <Vi />
+                    <BC Num="" Date="" De="" A="" Pour="" />
+                </AOSLP>
+            </Logiciels>
+        </Commands>
+    </Licenses>
+    <Batiment id="37" Num="1" Nom="">
+        <Serveurs id="38">
+            <IPDom>
+                <Dom value="...0/24" dns="" comment="Postes fixes" />
+                <Dom value="...0/24" dns="" comment="Postes DMZ" />
+            </IPDom>
+            <DNS Server="..., ..." />
+            <NTP Server="ntp...fr" />
+            <WINS Server="..." />
+            <Annuaire Server="192..." DN="ou=people, dc=..., dc=fr" Port="389" />
+            <Mail>
+                <Serveur protocole="SMTP" adresse="smtp...fr" />
+            </Mail>
+            <Proxy Type="http" Adresse="http://...proxy.pac" Port="" />
+        </Serveurs>
+        <IPReserve id="39">
+            <Adresse id="40" Dom="...0/24" IP="150" MAC=":::::" Utilisateur="" Ordinateur="">
+                <Complement Correspondant="" DateFin="" />
+            </Adresse>
+        </IPReserve>
+        <Salle id="140" Num="C" Nom="Matériels en réserve">
+            <Ordinateur id="141" Nom="" Type="Macintosh" Marque="Apple" Modele="G4"
+                Processeur="">
+                <Poste Type="Poste de travail" Valeur="" />
+                <Identification Sn="" IdInt="" IdExt="" Tutelle="" />
+                <OS Type="ALP" id="142" Nom="MacOS 10.5">
+                    <Licence />
+                    <BC Num="" Date="" De="" A="" Pour="" />
+                    <Passe id="143" date="">Administrateur : azerty</Passe>
+                    <Droits>Utilisateur avec pouvoirs</Droits>
+                    <Logiciels>
+                        <AOSLP Type="SLP" id="795" Nom="Abobe Acrobat Reader 9.2"
+                            />
+                        <AOSLP Type="ALP" id="144" Nom="iWork 08">
+                            <Licence />
+                            <Vi />
+                            <BC Num="" Date="05/12/2008" De="" A="" Pour="" />
+                        </AOSLP>
+                    </Logiciels>
+                </OS>
+                <Memoires>
+                    <Memoire id="145" Type="RAM" Valeur="1" />
+                    <Memoire id="146" Type="HD" Valeur="80" />
+                </Memoires>
+                <BC Num="" Date="" De="" A="" Pour="" />
+                <Garantie Livraison="" Duree="" />
+                <Affectations Anciennes="" Actuelle="" Date="" />
+                <Net id="147" Dom=".../24" IP="" MAC=":::::" />
+                <Commentaire id="148" Date="31/05/2011"></Commentaire>
+                <Intervention id="233" Date="08/09/2014">Reconditionnement total.</Intervention>
+                <Pret id="234" Fin="02/06/2015">Utilisateur</Pret>
+            </Ordinateur>
+            <Ecran id="149" Marque="DELL" Modele="P190Sb" Type="LCD" Taille="19">
+                <Identification Sn="" IdInt="1201D" IdExt="" Tutelle="Université Orléans" />
+                <BC Num="" Date="12/12/2009" De="Université Orléans" A="" Pour="ASR" />
+                <Garantie Livraison="03/01/2009" Duree="5 ans" />
+
+                <Affectations Anciennes="neuf" Actuelle="inactif" Date="01/02/2012" />
+            </Ecran>
+            <Imprimante Nom="" id="4889" Type="laser" Couleur="oui" Marque="DELL"
+                Modele="3010CN" Connexion="">
+                <Identification Sn="" IdInt="1206b" IdExt="93326" Tutelle="" />
+                <BC Num="" Date="" De="" A="" Pour="" />
+                <Garantie Livraison="" Duree="" />
+                <Affectations Anciennes="" Actuelle="" Date="" />
+                <Net id="4890" Dom="...0/24" IP="" MAC="" />
+            </Imprimante>
+            <Peripherique Nom="" id="162" Type="Réplicateur de ports" Caracteristiques=""
+                Marque="DELL" Modele="PRS" Connexion="">
+                <Identification Sn="" IdInt="1008O" IdExt="" Tutelle="" />
+                <BC Num="" Date="" De="" A="" Pour="" />
+                <Garantie Livraison="04/12/2001" Duree="3 ans" />
+                <Affectations Anciennes="neuf" Actuelle="ASR" Date="18/06/2013" />
+            </Peripherique>
+        </Salle>
+    </Batiment>
+</Inventaire>

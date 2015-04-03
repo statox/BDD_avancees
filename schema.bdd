@@ -1,0 +1,125 @@
+Addresses:
+    Id: string
+    Dom: string
+    IP: string
+    MAC: string
+    Utilisateur: string
+    Ordinateur: string
+    Correspondant: string/Nullable
+    DateFin: Date/Nullable
+    IDReserveID: int
+
+AOSLPs:
+    SC_Id: int
+    SC_Type: string
+    Type: string (SLP|ALP)
+    Id: int
+    Nom: string
+    BCNum: int
+
+Batiments:
+    Id: int
+    Num: int
+    Nom: string
+
+BCs:
+    Num: int
+    Date: Date
+    De: string
+    A: string
+    Pour: string
+
+Commentaire:
+    Id: int
+    Date: Date
+    Value: string
+
+Ecrans:
+    Id: int
+    Marque: string
+    Modele: string
+    Type: string
+    Taille: int
+    BCNum: int
+    IdInt: int
+    AffectAnciennes: string
+    AffectActuelle: string
+    AfectDate: Date
+    GarantieDate: Date
+    GarantieDuree: string
+
+Identifications:
+    IdInt: string
+    IdExt: string
+    Sn: string
+    Tutelle: string
+
+Imprimantes:
+    Id: int
+    Nom: string
+    Marque: string
+    Modele: string
+    Type: string
+    Couleur: boolean
+    Taille: int
+    Connexion: string
+    BCNum: int
+    IdInt: int
+    AffectAnciennes: string
+    AffectActuelle: string
+    AfectDate: Date
+    GarantieDate: Date
+    GarantieDuree: string
+    NetId: int
+
+IPDoms:
+    Id: int
+    value: string
+    dns: string
+    comment: string
+
+Mails:
+    Id: int
+    protocole: string
+    addresse: string
+
+Passes:
+    Id: int
+    date: Date
+    user: string
+    value: string
+
+Peripheriques:
+    nom: string
+    id: int
+    type: string
+    caracterisitques: string
+    marque: string
+    modele: string
+    connexion: string
+    gar_livraison: date
+    gar_duree: string
+    aff_ancienne: string
+    aff_actuelle: string
+    aff_date: date
+
+
+Prets:
+    Id: int
+    Fin: Date
+    Utilisateur: string
+    IdMateriel: int
+
+Salles:
+    Id: int
+    Num: string
+    Nom: string
+
+Serveurs:
+    DNS: string
+    NTP: string
+    WINS: string
+    Id: int
+    Ann_Server: string
+    Ann_DNs: string
+    Ann_Port: int
