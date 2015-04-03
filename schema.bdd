@@ -8,6 +8,7 @@ Addresses:
     Correspondant: string/Nullable
     DateFin: Date/Nullable
     IPReserveID: int
+    IdOs: int
 
 AOSLPs:
     SC_Id: int
@@ -67,16 +68,65 @@ Imprimantes:
     IdInt: int
     AffectAnciennes: string
     AffectActuelle: string
-    AfectDate: Date
-    GarantieDate: Date
+    AffectDate: Date
+    GarantieLivraison: Date
     GarantieDuree: string
     NetId: int
+
+Intervention:
+    Id: int
+    Date: Date
+    Value: string
 
 IPDoms:
     Id: int
     value: string
     dns: string
     comment: string
+
+Memoire:
+    Id: int
+    Type: string
+    Value: int
+
+Net:
+    Id: int
+    Dom: string
+    IP: string
+    MAC: string
+
+Ordinateur:
+    Id: int
+    SalleId: int
+    Nom: string
+    Type: string
+    Marque: string
+    Modele: int
+    Processeur: string
+    PosteType: string
+    PosteValue: string
+    IdInt: int
+    IdOs: int
+    IdMemoire: int
+    BCNum: int
+    GarantieLivraison: Date
+    GarantieDuree: string
+    IdCommentaire: int
+    AffectAnciennes: string
+    AffectActuelle: string
+    AffectDate: Date
+    IdIntervention: int
+    IdNet: int
+    IdPret: int
+
+OSs:
+    Id: int
+    Type: string (ALP|SLP)
+    Nom: string
+    BCNum: int
+    IdPasse: int
+    droits: string
+
 
 Mails:
     Id: int
