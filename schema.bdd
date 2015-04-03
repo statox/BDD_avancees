@@ -7,7 +7,7 @@ Addresses:
     Ordinateur: string
     Correspondant: string/Nullable
     DateFin: Date/Nullable
-    IDReserveID: int
+    IPReserveID: int
 
 AOSLPs:
     SC_Id: int
@@ -44,8 +44,8 @@ Ecrans:
     IdInt: int
     AffectAnciennes: string
     AffectActuelle: string
-    AfectDate: Date
-    GarantieDate: Date
+    AffectDate: Date
+    GarantieLivraison: Date
     GarantieDuree: string
 
 Identifications:
@@ -85,7 +85,7 @@ Mails:
 
 Passes:
     Id: int
-    date: Date
+    Date: Date
     user: string
     value: string
 
@@ -102,7 +102,6 @@ Peripheriques:
     aff_ancienne: string
     aff_actuelle: string
     aff_date: date
-
 
 Prets:
     Id: int
@@ -123,3 +122,5 @@ Serveurs:
     Ann_Server: string
     Ann_DNs: string
     Ann_Port: int
+
+
