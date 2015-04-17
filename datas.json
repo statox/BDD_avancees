@@ -1,0 +1,232 @@
+{
+  "Inventaire": {
+    "Licenses": {
+      "Stock": {
+        "-id": "1",
+        "Logiciels": {
+          "AOSLP": {
+            "-Type": "ALP",
+            "-id": "2",
+            "-Nom": "MS Visio 2013 Std",
+            "BC": { "-Date": "27/06/2013" }
+          }
+        }
+      },
+      "Commands": {
+        "-id": "17",
+        "Logiciels": {
+          "AOSLP": {
+            "-Type": "ALP",
+            "-id": "18",
+            "-Nom": "Mapple ",
+            "BC": {
+              
+            }
+          }
+        }
+      }
+    },
+    "Batiment": {
+      "-id": "37",
+      "-Num": "1",
+      "Serveurs": {
+        "-id": "38",
+        "IPDom": {
+          "Dom": [
+            {
+              "-value": "...0/24",
+              "-comment": "Postes fixes"
+            },
+            {
+              "-value": "...0/24",
+              "-comment": "Postes DMZ"
+            }
+          ]
+        },
+        "DNS": { "-Server": "..., ..." },
+        "NTP": { "-Server": "ntp...fr" },
+        "WINS": { "-Server": "..." },
+        "Annuaire": {
+          "-Server": "192...",
+          "-DN": "ou=people, dc=..., dc=fr",
+          "-Port": "389"
+        },
+        "Mail": {
+          "Serveur": {
+            "-protocole": "SMTP",
+            "-adresse": "smtp...fr"
+          }
+        },
+        "Proxy": {
+          "-Type": "http",
+          "-Adresse": "http://...proxy.pac"
+        }
+      },
+      "IPReserve": {
+        "-id": "39",
+        "Adresse": {
+          "-id": "40",
+          "-Dom": "...0/24",
+          "-IP": "150",
+          "-MAC": ":::::",
+          "Complement": {
+            
+          }
+        }
+      },
+      "Salle": {
+        "-id": "140",
+        "-Num": "C",
+        "-Nom": "Matériels en réserve",
+        "Ordinateur": {
+          "-id": "141",
+          "-Type": "Macintosh",
+          "-Marque": "Apple",
+          "-Modele": "G4",
+          "Poste": { "-Type": "Poste de travail" },
+          "Identification": {
+            
+          },
+          "OS": {
+            "-Type": "ALP",
+            "-id": "142",
+            "-Nom": "MacOS 10.5",
+            "BC": {
+              
+            },
+            "Passe": {
+              "-id": "143",
+              "#text": "Administrateur : azerty"
+            },
+            "Droits": "Utilisateur avec pouvoirs",
+            "Logiciels": {
+              "AOSLP": [
+                {
+                  "-Type": "SLP",
+                  "-id": "795",
+                  "-Nom": "Abobe Acrobat Reader 9.2"
+                },
+                {
+                  "-Type": "ALP",
+                  "-id": "144",
+                  "-Nom": "iWork 08",
+                  "BC": { "-Date": "05/12/2008" }
+                }
+              ]
+            }
+          },
+          "Memoires": {
+            "Memoire": [
+              {
+                "-id": "145",
+                "-Type": "RAM",
+                "-Valeur": "1"
+              },
+              {
+                "-id": "146",
+                "-Type": "HD",
+                "-Valeur": "80"
+              }
+            ]
+          },
+          "BC": {
+            
+          },
+          "Garantie": {
+            
+          },
+          "Affectations": {
+            
+          },
+          "Net": {
+            "-id": "147",
+            "-Dom": ".../24",
+            "-MAC": ":::::"
+          },
+          "Commentaire": {
+            "-id": "148",
+            "-Date": "31/05/2011"
+          },
+          "Intervention": {
+            "-id": "233",
+            "-Date": "08/09/2014",
+            "#text": "Reconditionnement total."
+          },
+          "Pret": {
+            "-id": "234",
+            "-Fin": "02/06/2015",
+            "#text": "Utilisateur"
+          }
+        },
+        "Ecran": {
+          "-id": "149",
+          "-Marque": "DELL",
+          "-Modele": "P190Sb",
+          "-Type": "LCD",
+          "-Taille": "19",
+          "Identification": {
+            "-IdInt": "1201D",
+            "-Tutelle": "Université Orléans"
+          },
+          "BC": {
+            "-Date": "12/12/2009",
+            "-De": "Université Orléans",
+            "-Pour": "ASR"
+          },
+          "Garantie": {
+            "-Livraison": "03/01/2009",
+            "-Duree": "5 ans"
+          },
+          "Affectations": {
+            "-Anciennes": "neuf",
+            "-Actuelle": "inactif",
+            "-Date": "01/02/2012"
+          }
+        },
+        "Imprimante": {
+          "-id": "4889",
+          "-Type": "laser",
+          "-Couleur": "oui",
+          "-Marque": "DELL",
+          "-Modele": "3010CN",
+          "Identification": {
+            "-IdInt": "1206b",
+            "-IdExt": "93326"
+          },
+          "BC": {
+            
+          },
+          "Garantie": {
+            
+          },
+          "Affectations": {
+            
+          },
+          "Net": {
+            "-id": "4890",
+            "-Dom": "...0/24"
+          }
+        },
+        "Peripherique": {
+          "-id": "162",
+          "-Type": "Réplicateur de ports",
+          "-Marque": "DELL",
+          "-Modele": "PRS",
+          "Identification": { "-IdInt": "1008O" },
+          "BC": {
+            
+          },
+          "Garantie": {
+            "-Livraison": "04/12/2001",
+            "-Duree": "3 ans"
+          },
+          "Affectations": {
+            "-Anciennes": "neuf",
+            "-Actuelle": "ASR",
+            "-Date": "18/06/2013"
+          }
+        }
+      }
+    }
+  }
+}
