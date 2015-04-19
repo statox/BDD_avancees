@@ -1,0 +1,350 @@
+// Données du batiment 1
+{
+    "id": "37",
+    "Num": "1",
+    "Nom": "Batiment1",
+    "Serveurs": [
+    {
+        "id": "38",
+        "IPDom": {
+            "Dom": [
+            {
+                "value": "192.168.0.0/24",
+                "dns": "8.8.8.8",
+                "comment": "Postes fixes"
+            },
+            {
+                "value": "192.168.1.0/24",
+                "dns": "8.8.8.8",
+                "comment": "Postes DMZ"
+            }
+            ]
+        },
+        "DNS": { "Server": "8.8.8.8, 8.8.4.4" },
+        "NTP": { "Server": "ntp.mydomain.fr" },
+        "WINS": { "Server": "wins.mydomain.fr" },
+        "Annuaire": {
+            "Server": "192.168.0.10",
+            "DN": "ou=people, dc=en, dc=fr",
+            "Port": "389"
+        },
+        "Mail": {
+            "Serveur": {
+                "protocole": "SMTP",
+                "adresse": "smtp.mydomain.fr"
+            }
+        },
+        "Proxy": {
+            "Type": "http",
+            "Adresse": "http://proxy.pac.mydomain.fr",
+            "Port": "80"
+        }
+    }
+    ],
+        "IPReserves": [
+        {
+            "id": "39",
+            "Adresse": {
+                "id": "40",
+                "Dom": "192.168.2.0/24",
+                "IP": "150",
+                "MAC": "AA:BB:CC:DD:EE:FF",
+                "Utilisateur": "Toto",
+                "Ordinateur": "totoPC",
+                "Complement": {
+                    "Correspondant": "Pouet",
+                    "DateFin": "31/12/2099"
+                }
+            }
+        }
+    ],
+        "ordinateurs": [
+        {
+            "id": "141",
+            "Nom": "Kitty",
+            "Type": "Macintosh",
+            "Marque": "Apple",
+            "Modele": "G4",
+            "Processeur": "i7",
+            "Salle": {
+                "id": "140",
+                "Num": "C",
+                "Nom": "Matériels en réserve"
+            },
+            "Poste": {
+                "Type": "Poste de travail",
+                "Valeur": "42"
+            },
+            "Identification": {
+                "Sn": "Pouet",
+                "IdInt": "4242",
+                "IdExt": "2424",
+                "Tutelle": "Non"
+            },
+            "OS": {
+                "Type": "ALP",
+                "id": "142",
+                "Nom": "MacOS 10.5",
+                "BC": {
+                    "Num": "3",
+                    "Date": "23/03/2014",
+                    "De": "Tutu",
+                    "A": "Tonton",
+                    "Pour": "Tutu"
+                },
+                "Passe": {
+                    "id": "143",
+                    "#text": "Administrateur : azerty"
+                },
+                "Droits": "Utilisateur avec pouvoirs",
+                "Logiciels": {
+                    "AOSLP": [
+                    {
+                        "Type": "SLP",
+                        "id": "795",
+                        "Nom": "Abobe Acrobat Reader 9.2"
+                    },
+                    {
+                        "Type": "ALP",
+                        "id": "144",
+                        "Nom": "iWork 08",
+                        "BC": {
+                            "Num": "4",
+                            "Date": "05/12/2008",
+                            "De": "Susu",
+                            "A": "Sisi",
+                            "Pour": "Sasa"
+                        }
+                    }
+                    ]
+                }
+            },
+            "Memoires": {
+                "Memoire": [
+                {
+                    "id": "145",
+                    "Type": "RAM",
+                    "Valeur": "1"
+                },
+                {
+                    "id": "146",
+                    "Type": "HD",
+                    "Valeur": "80"
+                }
+                ]
+            },
+            "BC": {
+                "Num": "5",
+                "Date": "09/04/2011",
+                "De": "Sonson",
+                "A": "Sisi",
+                "Pour": "Sasa"
+            },
+            "Garantie": {
+                "Livraison": "04/12/2002",
+                "Duree": "1 ans"
+            },
+            "Affectations": {
+                "Anciennes": "Tonton",
+                "Actuelle": "Sisi",
+                "Date": "31/05/2011"
+            },
+            "Net": {
+                "id": "147",
+                "Dom": "192.168.0.0/24",
+                "IP": "192.168.0.2",
+                "MAC": "B1:GB:00:00:00:B5"
+            },
+            "Commentaire": {
+                "id": "148",
+                "Date": "31/05/2011"
+            },
+            "Intervention": {
+                "id": "233",
+                "Date": "08/09/2014",
+                "#text": "Reconditionnement total."
+            },
+            "Pret": {
+                "id": "234",
+                "Fin": "02/06/2015",
+                "#text": "Utilisateur"
+            }
+        },
+        {
+            "id": "333",
+            "Nom": "PCa",
+            "Type": "XPS",
+            "Marque": "DELL",
+            "Modele": "G4",
+            "Processeur": "i7",
+            "Salle": {
+                "id": "240",
+                "Num": "Z",
+                "Nom": "Matériels en réserve"
+            },
+            "Poste": {
+                "Type": "Poste de travail",
+                "Valeur": "142"
+            },
+            "Identification": {
+                "Sn": "Pouet",
+                "IdInt": "4242",
+                "IdExt": "2424",
+                "Tutelle": "Non"
+            },
+        }
+    ],
+        "Ecrans":
+            [ 
+            {
+                "id": "149",
+                "Marque": "DELL",
+                "Modele": "P190Sb",
+                "Type": "LCD",
+                "Taille": "19",
+                "Salle": {
+                    "id": "140",
+                    "Num": "C",
+                    "Nom": "Matériels en réserve"
+                },
+                "Identification": {
+                    "Sn": "Pouet2",
+                    "IdInt": "1201D",
+                    "IdExt": "2424C",
+                    "Tutelle": "Université Orléans"
+                },
+                "BC": {
+                    "Num": "6",
+                    "Date": "12/12/2009",
+                    "De": "Université Orléans",
+                    "A": "Toto",
+                    "Pour": "ASR"
+                },
+                "Garantie": {
+                    "Livraison": "03/01/2009",
+                    "Duree": "5 ans"
+                },
+                "Affectations": {
+                    "Anciennes": "neuf",
+                    "Actuelle": "inactif",
+                    "Date": "01/02/2012"
+                }
+            },
+            {
+                "id": "149",
+                "Marque": "DELL",
+                "Modele": "P190Sb",
+                "Type": "LCD",
+                "Taille": "19",
+                "Salle": {
+                    "id": "240",
+                    "Num": "Z",
+                    "Nom": "Matériels en réserve"
+                },
+                "Identification": {
+                    "Sn": "Pouet2",
+                    "IdInt": "1201D",
+                    "IdExt": "2424C",
+                    "Tutelle": "Université Orléans"
+                },
+                "BC": {
+                    "Num": "6",
+                    "Date": "12/12/2009",
+                    "De": "Université Orléans",
+                    "A": "Toto",
+                    "Pour": "ASR"
+                },
+                "Garantie": {
+                    "Livraison": "03/01/2009",
+                    "Duree": "5 ans"
+                },
+                "Affectations": {
+                    "Anciennes": "neuf",
+                    "Actuelle": "inactif",
+                    "Date": "01/02/2012"
+                }
+            }
+    ],
+        "Imprimantes": [
+        {
+            "Nom": "imp1",
+            "id": "4889",
+            "Type": "laser",
+            "Couleur": "oui",
+            "Marque": "DELL",
+            "Modele": "3010CN",
+            "Connexion": "Serie",
+            "Salle": {
+                "id": "140",
+                "Num": "C",
+                "Nom": "Matériels en réserve"
+            },
+            "Identification": {
+                "Sn": "Pouet3",
+                "IdInt": "1209b",
+                "IdExt": "93326",
+                "Tutelle": "Université Orléans"
+            },
+            "BC": {
+                "Num": "7",
+                "Date": "13/12/2009",
+                "De": "Université Orléans",
+                "A": "Tata",
+                "Pour": "BSR"
+            },
+            "Garantie": {
+                "Livraison": "24/12/2002",
+                "Duree": "-"
+            },
+            "Affectations": {
+                "Anciennes": "Tuntun",
+                "Actuelle": "Sasa",
+                "Date": "31/05/2011"
+            },
+            "Net": {
+                "id": "4890",
+                "Dom": "192.168.1.0/24",
+                "IP": "192.168.1.14",
+                "MAC": "DE:AD:BE:EF:00:00"
+            }
+        }
+    ],
+        "Peripheriques": [
+        {
+            "Nom": "rep1",
+            "id": "162",
+            "Type": "Réplicateur de ports",
+            "Caracteristiques": "-",
+            "Marque": "DELL",
+            "Modele": "PRS",
+            "Connexion": "USB",
+            "Salle": {
+                "id": "140",
+                "Num": "C",
+                "Nom": "Matériels en réserve"
+            },
+            "Identification": {
+                "Sn": "Pouet3",
+                "IdInt": "1008o",
+                "IdExt": "93313",
+                "Tutelle": "Université Orléans"
+            },
+            "BC": {
+                "Num": "8",
+                "Date": "13/12/2010",
+                "De": "Université Orléans",
+                "A": "Tata",
+                "Pour": "BSR"
+            },
+            "Garantie": {
+                "Livraison": "04/12/2001",
+                "Duree": "3 ans"
+            },
+            "Affectations": {
+                "Anciennes": "neuf",
+                "Actuelle": "ASR",
+                "Date": "18/06/2013"
+            }
+        }
+    ]
+}
