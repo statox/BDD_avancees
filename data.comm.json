@@ -1,0 +1,32 @@
+// données de la collection commune
+// qui ne sont en fait que des licences donc que l'on pourrait appeller Licences
+{
+    "Stock": [
+    {
+        "Type": "ALP",
+        "id": "2",
+        "Nom": "MS Visio 2013 Std",
+        "BC": {
+            "Num": "1",
+            "Date": "27/06/2013",
+            "De": "Toto",
+            "A": "Tata",
+            "Pour": "Titi"
+        }
+    }
+    ],
+        "Commands": [
+        {
+            "Type": "ALP",
+            "id": "18",
+            "Nom": "Mapple ",
+            "BC": {
+                "Num": "2",
+                "Date": "14/02/2014",
+                "De": "Toto",
+                "A": "Toutou",
+                "Pour": "Tintin"
+            }
+        }
+    ]
+}
