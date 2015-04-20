@@ -8,13 +8,14 @@ Addresses:
     Correspondant: string/Nullable
     DateFin: Date/Nullable
     IPReserveID: int
-    IdOs: int
+    IdBatiment: int
 
 AOSLPs:
     SC_Id: int
     SC_Type: string
     Type: string (SLP|ALP)
     Id: int
+    IdOs: int
     Nom: string
     BCNum: int
 
